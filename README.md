@@ -6,3 +6,6 @@ Password Cracking problem has been introduced by the Princeton university in 200
 To encrypt a message, the Encryption algorithm employs the public key on the message and returns the encrypted message. This encrypted message is called the Ciphertext. Decrypting the ciphetext with the public key is not efficient and takes a lot of time. In the other word, decrypting the message with the public key is an exponential algorithm. As the size of the public key grows linearly, the time needed to decrypt the ciphertext with the public key grows exponentially. 
 
 To decrypt the ciphertext and obtain the message, the Decryption algorithm should be ran on the ciphertext by employing the secret key. Using the secret key, the Decryption algorithm could decrypt the ciphertext and obtain a message in the polynomial amount of time. This justifies the name of the keys; public key is used only for the encryption, while decryption is hard using that. Therefore it could be public and even the adversary could have and use that! However, the secret key should be secret since it could easily decrypt the message. 
+
+# License
+Apachea Version 2.0 
