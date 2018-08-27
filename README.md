@@ -7,5 +7,8 @@ To encrypt a message, the Encryption algorithm employs the public key on the mes
 
 To decrypt the ciphertext and obtain the message, the Decryption algorithm should be ran on the ciphertext by employing the secret key. Using the secret key, the Decryption algorithm could decrypt the ciphertext and obtain a message in the polynomial amount of time. This justifies the name of the keys; public key is used only for the encryption, while decryption is hard using that. Therefore it could be public and even the adversary could have and use that! However, the secret key should be secret since it could easily decrypt the message. 
 
+# Project Documentation
+The full project documentation is available at: https://archive.org/details/COMP546ProjectReportPasswordCracking
+
 # License
 Apachea Version 2.0 
